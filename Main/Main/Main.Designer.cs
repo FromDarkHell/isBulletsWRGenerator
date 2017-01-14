@@ -1,6 +1,6 @@
 ﻿namespace Main
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.WRLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -66,7 +67,7 @@
             this.button1.Text = "Find WR";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -76,8 +77,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.WRLabel);
             this.ForeColor = System.Drawing.Color.White;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Main";
+            this.Text = "isBullets Generator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
